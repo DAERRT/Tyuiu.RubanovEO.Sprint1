@@ -6,7 +6,7 @@ namespace Tyuiu.RubanovEO.Sprint1.Task0.V21.Lib
     {
         public double Calculate()
         {
-            return 10 / (2 + 3);
+            return 3 * 4 + 10 / 2;
         }
     }
 }
