@@ -1,7 +1,7 @@
 ﻿
-using Tyuiu.RubanovEO.Sprint1.Task3.V13.Lib;
+using Tyuiu.RubanovEO.Sprint1.Task7.V7.Lib;
 
-namespace Tyuiu.RubanovEO.Sprint1.Task3.V13
+namespace Tyuiu.RubanovEO.Sprint1.Task7.V7
 {
     internal class Program
     {
@@ -12,15 +12,15 @@ namespace Tyuiu.RubanovEO.Sprint1.Task3.V13
             Console.Title = "Спринт #1 | Выполнил: Рубанов Е. О. | ПКТБ-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания.                                *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #13                                                             *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту.                *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнил: Рубанов Егор Олегович | ПКТБ-24-1                             *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая позволяет найти произведение цифр заданного *");
-            Console.WriteLine("* трехзначного числа. Ответ округлите до 3 знаков после запятой.          *");
-            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("* Написать программу, которая вычисляет математическое выражение по       *");
+            Console.WriteLine("* исходным значениям данных, вводимых пользователем. Ответ округлите      *");
+            Console.WriteLine("* до 3 знаков после запятой.                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -32,7 +32,7 @@ namespace Tyuiu.RubanovEO.Sprint1.Task3.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.MultiplyOfDigits(x, y));
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadKey();
         }
