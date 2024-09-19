@@ -1,7 +1,7 @@
 
-using Tyuiu.RubanovEO.Sprint1.Task4.V29.Lib;
+using Tyuiu.RubanovEO.Sprint1.Task6.V10.Lib;
 
-namespace Tyuiu.RubanovEO.Sprint1.Task4.V29.Test
+namespace Tyuiu.RubanovEO.Sprint1.Task6.V10.Test
 {
     public class Tests
     {
@@ -14,7 +14,7 @@ namespace Tyuiu.RubanovEO.Sprint1.Task4.V29.Test
         public void Test1()
         {
             DataService ds = new DataService();
-            Assert.That(ds.Calculate(2,3), Is.EqualTo(0.045));
+            Assert.That(ds.DeleteMiddleLetter("My dog name is lorem"), Is.EqualTo("My dg name is loem"));
         }
     }
 }

@@ -1,3 +1,6 @@
+
+using Tyuiu.RubanovEO.Sprint1.Task2.V10.Lib;
+
 namespace Tyuiu.RubanovEO.Sprint1.Task2.V10.Test
 {
     public class DataServiceTest
@@ -10,7 +13,8 @@ namespace Tyuiu.RubanovEO.Sprint1.Task2.V10.Test
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            DataService ds = new DataService();
+            Assert.That(ds.ConvertMetreToInchs(10), Is.EqualTo(393.7));
         }
     }
 }

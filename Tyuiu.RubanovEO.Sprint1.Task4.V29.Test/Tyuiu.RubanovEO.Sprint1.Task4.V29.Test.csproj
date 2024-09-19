@@ -18,6 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.RubanovEO.Sprint1.Task4.V29.Lib\Tyuiu.RubanovEO.Sprint1.Task4.V29.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 

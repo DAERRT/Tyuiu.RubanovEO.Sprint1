@@ -1,3 +1,6 @@
+
+using Tyuiu.RubanovEO.Sprint1.Task1.V8.Lib;
+
 namespace Tyuiu.RubanovEO.Sprint1.Task1.V8.Test
 {
     public class DataServiceTest
@@ -8,9 +11,10 @@ namespace Tyuiu.RubanovEO.Sprint1.Task1.V8.Test
         }
 
         [Test]
-        public void Test1()
+        public void CheckCalculate()
         {
-            Assert.Pass();
+            DataService ds = new DataService();
+            Assert.That(ds.Calculate(10, 5), Is.EqualTo(1.57));
         }
     }
 }

@@ -1,3 +1,6 @@
+
+using Tyuiu.RubanovEO.Sprint1.Task5.V3.Lib;
+
 namespace Tyuiu.RubanovEO.Sprint1.Task5.V3.Test
 {
     public class Tests
@@ -10,7 +13,8 @@ namespace Tyuiu.RubanovEO.Sprint1.Task5.V3.Test
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            DataService ds = new DataService();
+            Assert.That(ds.Calculate(11311), Is.EqualTo(3));
         }
     }
 }
